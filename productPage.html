@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHocs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins", rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="productPage">
+        <div class="productPageRow">
+            <img src="image/white_chocolate_product.png">
+            <button class="backIcon"><a href="homePage.html"><img src="image/panah.png"></a></button>
+            <div class="productPageColumn">
+                <h2>White Chocolate</h2>
+                <h3>$15.50</h3>
+                <p>Number of item available: 17</p>
+                <label for="quantity">Quantity: </label><input class="quantityForm" type="number" id="quantity1" min="0" value="0" max="100">
+                <br>
+                <label for="ShippingTo">Shipping to: </label><input class="addressForm" type="text" id="address">
+                <br>
+                <label for="courier">Courier: </label>
+                <select name="courier" id="courier">
+                    <option value="Choose courier">Choose courier</option>
+                    <option value="JNE">JNE</option>
+                    <option value="JnT">JnT</option>
+                    <option value="goSend">Go-send</option>
+                    <option value="grabSend">Grab-send</option>
+                </select>
+                <br>
+                <button onclick="validateAddItem(event)"><a href="purchasePage.html">Add To Cart</a></button>
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </section>
+    <section class="ingredient">
+        <h1>Composition</h1>
+        <div class="ingredientRow">
+            <div class="ingredientColumn">
+                <img src="Image/sugar.png">
+            </div>
+            <div class="ingredientColumn">
+                <img src="Image/cocoa.png">
+            </div>
+            <div class="ingredientColumn">
+                <img src="Image/milk.png">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerRow">
+                <div class="footerColumn">
+                    <img src="image/Logo.png" alt="">
+                </div>
+                <div class="footerColumn">
+                    <h4>Furnid</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li><a href="aboutUsPage.html">About Us</a></li>
+                        <li><a href="locationPage.html">Our Store</a></li>
+                        <li><a href="productPage.html">Our Product</a></li>
+                    </ul>
+                </div>
+                <div class="footerColumn">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Order Status</li>
+                        <li>Return</li>
+                        <li>Shipping</li>
+                    </ul>
+                </div>
+                <div class="footerColumn">
+                    <h4>Connect with Us</h4>
+                    <div class="socmed">
+                        <i><img src="Image/fb_2.png" alt=""></i>
+                        <i><img src="image/twitter.png" alt=""></i>
+                        <i><img src="Image/ig.png" alt=""></i>
+                        <i><img src="image/linkedin.png" alt=""></i>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright © 2022 Furnid, Inc - All Right Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

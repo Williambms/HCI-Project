@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHocs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins", rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="cart">
+        <button><a href="productPage.html"><img src="image/panah.png"></a></button>
+        <div class="cartRow">
+            <h3>Product Details</h3>
+            <h3 class="title2">Quantity</h3>
+            <h3>Price</h3>
+            <h3>Total</h3>
+        </div>
+        <div class="cartRow">
+            <img src="image/white_chocolate_icon.png">
+            <div class="title">
+                <p>White Chocolate</p>
+                <p>Product Code: XLR88</p>
+            </div>
+            <input id="quantity1" type="number" min="0" value="0" max="100">
+            <p>$15.50</p>
+            <p>$15.50</p>
+        </div>
+        <hr>
+        <div class="cartRow">
+            <img src="image/milk_chocolate_icon.png">
+            <div class="title">
+                <p>Milk Chocolate</p>
+                <p>Product Code: XLR77</p>
+            </div>
+            <input id="quantity2" type="number" min="0" value="0" max="100">
+            <p>$12.50</p>
+            <p>$12.50</p>
+        </div>
+        <hr>
+        <div class="cartRow">
+            <img src="image/dark_chocolate_icon.png">
+            <div class="title">
+                <p>Dark Chocolate</p>
+                <p>Product Code: XXL71</p>
+            </div>
+            <input id="quantity3" type="number" min="0" value="0" max="100">
+            <p>$19.50</p>
+            <p>$19.50</p>
+        </div>
+        <hr>
+        <div class="cartRow">
+            <img src="image/cocoa_powder_icon.png">
+            <div class="title">
+                <p>Cocoa Powder</p>
+                <p>Product Code: XLR56</p>
+            </div>
+            <input id="quantity4" type="number" min="0" value="0" max="100">
+            <p>$16.50</p>
+            <p>$16.50</p>
+        </div>
+        <hr>
+        <div class="bottomRow">
+            <p>Total: $66.00 (Include Courier)</p>
+            <button id="checkout"><a href="homePage.html" onclick="checkOut(event)">CheckOut</a></button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerRow">
+                <div class="footerColumn">
+                    <img src="image/Logo.png" alt="">
+                </div>
+                <div class="footerColumn">
+                    <h4>Furnid</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li><a href="aboutUsPage.html">About Us</a></li>
+                        <li><a href="locationPage.html">Our Store</a></li>
+                        <li><a href="productPage.html">Our Product</a></li>
+                    </ul>
+                </div>
+                <div class="footerColumn">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Order Status</li>
+                        <li>Return</li>
+                        <li>Shipping</li>
+                    </ul>
+                </div>
+                <div class="footerColumn">
+                    <h4>Connect with Us</h4>
+                    <div class="socmed">
+                        <i><img src="Image/fb_2.png" alt=""></i>
+                        <i><img src="image/twitter.png" alt=""></i>
+                        <i><img src="Image/ig.png" alt=""></i>
+                        <i><img src="image/linkedin.png" alt=""></i>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright © 2022 Furnid, Inc - All Right Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
